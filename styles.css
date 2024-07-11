@@ -3,6 +3,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .container {
@@ -11,6 +12,7 @@ body {
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 h1 {
@@ -63,4 +65,36 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+.team-placeholder {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+/* Dark theme styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.container.dark-mode {
+    background-color: #1e1e1e;
+}
+
+button.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+button.dark-mode:hover {
+    background-color: #555555;
+}
+
+.team-placeholder.dark-mode {
+    border-bottom: 1px solid #333;
 }
