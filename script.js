@@ -1,10 +1,14 @@
 let teamsData = [];
+let playerNames = ['Богдан','Саша','Ваня','Паша']
+let additionalPlayerCount = 1;
 
 function getRandomTeams(teams, count) {
     const shuffled = teams.sort(() => 0.5 - Math.random());
     return shuffled.slice(0, count);
 }
-
+/*
+<p>Гравець ${index + 1} грає за ${team.name}</p>
+*/
 function displayTeams(teams) {
     const teamsList = document.getElementById('teams-list');
     teamsList.innerHTML = ''; // Clear the current list
@@ -14,9 +18,8 @@ function displayTeams(teams) {
         teamElement.innerHTML = `
             <img src="${team.icon}" alt="${team.name} logo" class="team-icon">
             <div class="team-info">
-                <h2>${team.name}</h2>
-                <p>Гравець ${index + 1} грає за ${team.name}</p>
-                <p>League: ${team.league}</p>
+                <h2>${playerNames[index]} грає за ${team.name}</h2>
+                <h2>${team.league}</h2>
             </div>
             <div class="rating">
                 <img src="${team.ratingico}" alt="Rating: ${team.rating}">

@@ -31,27 +31,36 @@ h1 {
 }
 
 .team-info {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 50px; /* Ensure text aligns with icon height */
+    flex-grow: 1;
 }
 
-.team-info h2, .team-info p {
+.team-info h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.team-info p {
     margin: 0;
     font-size: 1em;
 }
 
 .rating img {
     width: 100px;
-    height: auto;
+    margin-left: 20px;
 }
 
 button {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
