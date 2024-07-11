@@ -3,24 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Football Teams</title>
+    <title>Football Teams Selection</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container">
-        <h1>Football Teams</h1>
-        <div id="teams">
-            <div class="team-placeholder">Натисніть кнопку щоб обрати команди</div>
-            <div class="team-placeholder">Натисніть кнопку щоб обрати команди</div>
-            <div class="team-placeholder">Натисніть кнопку щоб обрати команди</div>
-            <div class="team-placeholder">Натисніть кнопку щоб обрати команди</div>
+<body class="dark-mode">
+    <div class="container dark-mode">
+        <h1 class="dark-mode">Вибір футбольних команд</h1>
+        <div class="theme-toggle" onclick="toggleTheme()"> ☀ </div>
+        <div id="teams"></div>
+        <button class="dark-mode" onclick="shuffleTeams()">Змінити команди</button>
+        <button class="dark-mode" onclick="saveTeams()">Записати команди</button>
+        <button class="dark-mode" onclick="loadTeams()">Показати записані команди</button>
+        <div class="slider-container">
+            <label class="dark-mode" for="rating-filter">Оцінка команди: <span id="rating-value">3</span></label>
+            <input type="range" id="rating-filter" min="3" max="5" step="0.5" value="3" oninput="updateRatingValue()">
         </div>
-        <button onclick="shuffleTeams()">Change Teams</button>
-        <button onclick="saveTeams()">Save Teams</button>
-        <button onclick="loadTeams()">Load Saved Teams</button>
-        <button onclick="toggleTheme()">Toggle Theme</button>
+        <div class="checkbox-container">
+            <label class="dark-mode">Ліги:</label>
+            <label class="dark-mode"><input type="checkbox" name="league" value="Premier League"> Premier League</label>
+            <label class="dark-mode"><input type="checkbox" name="league" value="Serie A"> Serie A</label>
+            <label class="dark-mode"><input type="checkbox" name="league" value="LaLiga"> LaLiga</label>
+            <label class="dark-mode"><input type="checkbox" name="league" value="Bundesliga"> Bundesliga</label>
+            <label class="dark-mode"><input type="checkbox" name="league" value="Championship"> Championship</label>
+            <label class="dark-mode"><input type="checkbox" name="league" value="Ligue 1"> Ligue 1</label>
+            <label class="dark-mode"><input type="checkbox" name="league" value="Eredivisie"> Eredivisie</label>
+            <label class="dark-mode"><input type="checkbox" name="league" value="Liga NOS"> Liga NOS</label>
+            <label class="dark-mode"><input type="checkbox" name="league" value="Europe"> Europe</label>
+        </div>
+        <!-- <div class="radiobutton-container">
+            <label class="dark-mode">Режим:</label>
+            <label class="dark-mode"><input type="radio" name="mode" value="standart" checked> Standart</label>
+            <label class="dark-mode"><input type="radio" name="mode" value="real"> Real</label>
+        </div> -->
     </div>
-
     <script src="scripts.js"></script>
 </body>
 </html>
