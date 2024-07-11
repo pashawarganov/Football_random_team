@@ -1,0 +1,345 @@
+[
+    {
+        "name":"Manchester United",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Premier League",
+        "icon":"icons/manchester_united.png"
+    },
+    {
+        "name":"Manchester City",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Premier League",
+        "icon":"icons/manchester_city.png"
+    },
+    {
+        "name":"Juventus",
+        "rating":"4,5",
+        "ratingico":"icons/5stars.png",
+        "league":"Serie A",
+        "icon":"icons/juventus.png"
+    },
+    {
+        "name":"Tottenham",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Premier League",
+        "icon":"icons/tottenham.png"
+    },
+    {
+        "name":"Barcelona",
+        "rating":"5",
+        "ratingico":"icons/5stars.png",
+        "league":"LaLiga",
+        "icon":"icons/barcelona.png"
+    },
+    {
+        "name":"Atletico Madrid",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"LaLiga",
+        "icon":"icons/atletico_madrid.png"
+    },
+    {
+        "name":"Real Madrid",
+        "rating":"5",
+        "ratingico":"icons/5stars.png",
+        "league":"LaLiga",
+        "icon":"icons/real_madrid.png"
+    },
+    {
+        "name":"Borussia Dortmund",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Bundesliga",
+        "icon":"icons/borussia_dortmund.png"
+    },
+    {
+        "name":"Arsenal",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Premier League",
+        "icon":"icons/arcenal.png"
+    },
+    {
+        "name":"Newcastle United",
+        "rating":"3,5",
+        "ratingico":"icons/3,5stars.png",
+        "league":"Championship",
+        "icon":"icons/newcastle_united.png"
+    },
+    {
+        "name":"Liverpool",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Premier League",
+        "icon":"icons/liverpool.png"
+    },
+    {
+        "name":"Brighton & Hove Albion",
+        "rating":"3",
+        "ratingico":"icons/3stars.png",
+        "league":"Championship",
+        "icon":"icons/brighton.png"
+    },
+    {
+        "name":"Aston Villa",
+        "rating":"3,5",
+        "ratingico":"icons/3,5stars.png",
+        "league":"Championship",
+        "icon":"icons/aston_villa.png"
+    },
+    {
+        "name":"Crystal Palace",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Premier League",
+        "icon":"icons/crystal_palace.png"
+    },
+    {
+        "name":"Chelsea",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Premier League",
+        "icon":"icons/chelsea.png"
+    },
+    {
+        "name":"Wolverhampton Wanderers",
+        "rating":"3",
+        "ratingico":"icons/3stars.png",
+        "league":"Championship",
+        "icon":"icons/wolverhampton.png"
+    },
+    {
+        "name":"West Ham United",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Premier League",
+        "icon":"icons/west_ham_united.png"
+    },
+    {
+        "name":"Everton",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Premier League",
+        "icon":"icons/everton.png"
+    },
+    {
+        "name":"Leicester City",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Premier League",
+        "icon":"icons/leicester_city.png"
+    },
+    {
+        "name":"FC Southampton",
+        "rating":"3,5",
+        "ratingico":"icons/3,5stars.png",
+        "league":"Premier League",
+        "icon":"icons/southampton.png"
+    },
+    {
+        "name":"SSC Napoli",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Serie A",
+        "icon":"icons/napoli.png"
+    },
+    {
+        "name":"Lazio",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Serie A",
+        "icon":"icons/lazio.png"
+    },
+    {
+        "name":"Internazionale",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Serie A",
+        "icon":"icons/internazionale.png"
+    },
+    {
+        "name":"Milan",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Serie A",
+        "icon":"icons/milan.png"
+    },
+    {
+        "name":"Atalanta",
+        "rating":"3,5",
+        "ratingico":"icons/3,5stars.png",
+        "league":"Serie A",
+        "icon":"icons/atalanta.png"
+    },
+    {
+        "name":"Roma",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Serie A",
+        "icon":"icons/roma.png"
+    },
+    {
+        "name":"Fiorentina",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"Serie A",
+        "icon":"icons/fiorentina.png"
+    },
+    {
+        "name":"Torino FC",
+        "rating":"3,5",
+        "ratingico":"icons/3,5stars.png",
+        "league":"Serie A",
+        "icon":"icons/torino.png"
+    },
+    {
+        "name":"US Sassuolo Calcio",
+        "rating":"3,5",
+        "ratingico":"icons/3,5stars.png",
+        "league":"Serie A",
+        "icon":"icons/sassuolo.png"
+    },
+    {
+        "name":"FC Watford",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Premier League",
+        "icon":"icons/watford.png"
+    },
+    {
+        "name":"Olympique Lyonnais",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Ligue 1",
+        "icon":"icons/olympique.png"
+    },
+    {
+        "name":"Lille Osc Metropole",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Ligue 1",
+        "icon":"icons/lille.png"
+    },
+    {
+        "name":"As Monaco FC",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Ligue 1",
+        "icon":"icons/monaco.png"
+    },
+    {
+        "name":"Paris Saint-Germain FC",
+        "rating":"5",
+        "ratingico":"icons/5stars.png",
+        "league":"Ligue 1",
+        "icon":"icons/psg.png"
+    },
+    {
+        "name":"AFC Ajax",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Eredivisie",
+        "icon":"icons/ajax.png"
+    },
+    {
+        "name":"PSV Eindhoven",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Eredivisie",
+        "icon":"icons/psv.png"
+    },
+    {
+        "name":"Athletic Bilbao",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"LaLiga",
+        "icon":"icons/bilbao.png"
+    },
+    {
+        "name":"FC Valencia",
+        "rating":"4,5",
+        "ratingico":"icons/4,5stars.png",
+        "league":"LaLiga",
+        "icon":"icons/valencia.png"
+    },
+    {
+        "name":"FC Villarreal",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"LaLiga",
+        "icon":"icons/villarreal.png"
+    },
+    {
+        "name":"SL Benfica",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Liga NOS",
+        "icon":"icons/benfica.png"
+    },
+    {
+        "name":"FC Porto",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Liga NOS",
+        "icon":"icons/porto.png"
+    },
+    {
+        "name":"Sporting CP",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Liga NOS",
+        "icon":"icons/sporting.png"
+    },
+    {
+        "name":"TSV Bayer",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Bundesliga",
+        "icon":"icons/bayer.png"
+    },
+    {
+        "name":"FC Schalke",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Bundesliga",
+        "icon":"icons/schalke.png"
+    },
+    {
+        "name":"FC Bayern Munchen",
+        "rating":"5",
+        "ratingico":"icons/5stars.png",
+        "league":"Bundesliga",
+        "icon":"icons/bayern.png"
+    },
+    {
+        "name":"Monchengladbach",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Bundesliga",
+        "icon":"icons/monchengladbach.png"
+    },
+    {
+        "name":"VFL Wolfsburg",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Bundesliga",
+        "icon":"icons/wolfsburg.png"
+    },
+    {
+        "name":"Besiktas JK",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Europe",
+        "icon":"icons/besiktas.png"
+    },
+    {
+        "name":"FC Dynamo Kyiv",
+        "rating":"4",
+        "ratingico":"icons/4stars.png",
+        "league":"Europe",
+        "icon":"icons/dynamo_kyiv.png"
+    }
+]
